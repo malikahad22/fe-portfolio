@@ -2,12 +2,13 @@
 import { useEffect, useState } from "react";
 
 import { getMeData, getProjectsData } from "@/app/lib/api/index";
+
 import Hero from "@/app/sections/hero-section/Page";
 import Loading from "@/app/component/spinners/Page";
 import Projects from "@/app/sections/projects/Page";
 import About from "@/app/sections/about-me/Page";
-import Skills from "@/app/sections/skills/Page";
-import Services from "@/app/sections/Services/Page";
+import Skills from "@/app/sections/Skills/Page";
+import Services from "@/app/sections/services/Page";
 import Contact from "@/app/sections/Contact-Me/Page";
 
 export default function Home() {
